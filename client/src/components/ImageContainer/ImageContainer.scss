@@ -1,0 +1,18 @@
+.pf-image-wrapper {
+  .pf-image {
+    transition: opacity 1s;
+
+    &--visible {
+      opacity: 1;
+    }
+
+    &--hidden {
+      opacity: 0;
+    }
+
+    &--invalid-src {
+      background-image: linear-gradient(90deg, #ccc, #999, #ccc);
+      color: #fff;
+    }
+  }
+}
